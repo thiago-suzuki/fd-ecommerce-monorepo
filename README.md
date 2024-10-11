@@ -46,12 +46,22 @@ Aplicação Gam3r.store feito durante a trilha intermediária da Formação DEV
 $ yarn install
 ```
 
-## 2ºPasso - Rodar o build
+## 2ºPasso - Configurar .env dentro de apps/frontend
+```bash
+$ NEXT_PUBLIC_API_URL=http://localhost:3005
+```
+
+## 3ºPasso - Configurar .env dentro de apps/backend
+```bash
+$ DATABASE_URL="postgresql://neondb_owner:dqLVOZmaM56E@ep-dawn-rain-a4tn0ckm.us-east-1.aws.neon.tech/neondb?sslmode=require"
+```
+
+## 4ºPasso - Rodar o build
 ```bash
 $ yarn build
 ```
 
-## 3ºPasso - Rodar o Projeto
+## 5ºPasso - Rodar o Projeto
 ```bash
 $ yarn dev
 ```
