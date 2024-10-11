@@ -46,7 +46,7 @@ $ yarn install
 $ yarn build
 ```
 
-## Rodar o Projeto
+## 3ºPasso - Rodar o Projeto
 ```bash
 $ yarn dev
 ```
