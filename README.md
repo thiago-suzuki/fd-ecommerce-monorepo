@@ -51,7 +51,7 @@ $ yarn install
 NEXT_PUBLIC_API_URL=http://localhost:3005
 ```
 
-## 3ºPasso - Configurar .env dentro de apps/monile (Trocar IP para o da sua máquina - IPV4)
+## 3ºPasso - Configurar .env dentro de apps/mobile (Trocar IP para o da sua máquina - IPV4)
 ```bash
 API_URL=http:/192.168.15.49:3005
 ```
