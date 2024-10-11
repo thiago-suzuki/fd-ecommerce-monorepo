@@ -48,20 +48,25 @@ $ yarn install
 
 ## 2ºPasso - Configurar .env dentro de apps/frontend
 ```bash
-$ NEXT_PUBLIC_API_URL=http://localhost:3005
+NEXT_PUBLIC_API_URL=http://localhost:3005
 ```
 
-## 3ºPasso - Configurar .env dentro de apps/backend
+## 3ºPasso - Configurar .env dentro de apps/monile (Trocar IP para o da sua máquina - IPV4)
 ```bash
-$ DATABASE_URL="postgresql://neondb_owner:dqLVOZmaM56E@ep-dawn-rain-a4tn0ckm.us-east-1.aws.neon.tech/neondb?sslmode=require"
+API_URL=http:/192.168.15.49:3005
 ```
 
-## 4ºPasso - Rodar o build
+## 4ºPasso - Configurar .env dentro de apps/backend
+```bash
+DATABASE_URL="postgresql://neondb_owner:dqLVOZmaM56E@ep-dawn-rain-a4tn0ckm.us-east-1.aws.neon.tech/neondb?sslmode=require"
+```
+
+## 5ºPasso - Rodar o build
 ```bash
 $ yarn build
 ```
 
-## 5ºPasso - Rodar o Projeto
+## 6ºPasso - Rodar o Projeto
 ```bash
 $ yarn dev
 ```
